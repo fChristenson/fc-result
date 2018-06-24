@@ -14,6 +14,7 @@ describe("Result", () => {
     const result = resultSum(1, 1);
 
     expect(result instanceof Ok).toEqual(expected);
+    expect(result.value).toEqual(2);
   });
 
   it("returns a Fail for a function that throws an error", () => {

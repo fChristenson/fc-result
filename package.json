@@ -1,6 +1,6 @@
 {
   "name": "fc-result",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to convert a function that may fail to a function that returns a result",
   "main": "index.js",
   "scripts": {
