@@ -1,0 +1,19 @@
+{
+  "name": "fc-result",
+  "version": "1.0.0",
+  "description": "Library to convert a function that may fail to a function that returns a result",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
+  },
+  "keywords": [
+    "Result",
+    "JavaScript"
+  ],
+  "author": "Fredrik Christenson",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "23.1.0"
+  }
+}
